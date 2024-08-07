@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       
       box.textContent = currentPlayer;
       if (checkWin()) {
-        header.textContent = `${currentPlayer} Wins!`;
+        header.textContent = `${currentPlayer} WINS!`;
         gameActive = false;
         setTimeout(() => {
           header.textContent = 'NEW GAME LOADING...';
